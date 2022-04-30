@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="text">
       <h1>HealthCare Management</h1>
   </div>
 </template>
@@ -11,5 +11,7 @@ export default {
 </script>
 
 <style>
-
+.text {
+    margin: 0 auto;
+}
 </style>
