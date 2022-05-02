@@ -4,7 +4,7 @@
       <div class="register-form">
         <div class="logo-wrapper">
           <img class="logo" src="/static/images/logo.png">
-          <div class="tagline">Healcare management tool</div>
+          <div class="tagline">HealthCare Management tool</div>
         </div>
         <form >
           <div class="form-group">
