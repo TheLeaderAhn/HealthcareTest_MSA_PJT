@@ -3,8 +3,8 @@
     <div class="row justify-content-center">
       <div class="register-form">
         <div class="logo-wrapper">
-          <img class="logo" src="/static/images/logo.png">
-          <div class="tagline">HealthCare Management tool</div>
+          <img class="logo" src="/static/images/logo2.png">
+          <div class="tagline"><strong><h3>HealthCare Management tool</h3><br/>Ahn Jae Young</strong></div>
         </div>
         <form >
           <div class="form-group">
@@ -66,7 +66,11 @@ export default {
   margin-top: 50px;
   max-width: 320px;
 }
-
+.logo-wrapper > img{
+  width: 10.5em;
+  height: 7.5em;
+  margin-bottom: 20px;
+}
 .logo-wrapper {
   text-align: center;
   margin-bottom: 40px;

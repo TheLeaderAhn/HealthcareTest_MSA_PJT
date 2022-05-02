@@ -17,8 +17,8 @@ describe('RegisterPage.vue', () => {
   })
 
   it('should render correct contents', () => {
-    expect(wrapper.find('.logo').attributes().src).toEqual('/static/images/logo.png')
-    expect(wrapper.find('.tagline').text()).toEqual('HealthCare Management tool')
+    expect(wrapper.find('.logo').attributes().src).toEqual('/static/images/logo1.jpeg')
+    expect(wrapper.find('.tagline').text()).toEqual('HealthCare Management tool - Ahn Jae Young')
     expect(fieldUsername.element.value).toEqual('')
     expect(fieldEmailAddress.element.value).toEqual('')
     expect(fieldPassword.element.value).toEqual('')
