@@ -4,11 +4,6 @@ import router from './router'
 import store from './store'
 import axios from 'axios'
 import Vuelidate from 'vuelidate'
-import BootstrapVue from 'bootstrap-vue'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
-
-Vue.use(BootstrapVue)
 
 // Bootstrap axios
 axios.defaults.baseURL = '/api'
