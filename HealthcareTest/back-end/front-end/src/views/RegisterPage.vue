@@ -4,7 +4,7 @@
       <div class="register-form">
         <div class="logo-wrapper">
           <img class="logo" src="/static/images/logo2.png">
-          <div class="tagline"><strong><h3>HealthCare Management tool</h3><br/>Ahn Jae Young</strong></div>
+          <div class="tagline"><strong><h3>HealthCare Management tool</h3></strong></div>
         </div>
         <form >
           <div class="form-group">
@@ -19,14 +19,15 @@
             <label for="password">Password</label>
             <input type="password" class="form-control" id="password" v-model="form.password">
           </div>
-          <button type="submit" class="btn btn-primary btn-block">Create account</button>
+          <br/>
+          <button type="submit" class="btn btn-primary btn-block">Create account</button><br/>
           <p class="accept-terms text-muted">By clicking “Create account”, you agree to our <a href="#">terms of service</a> and <a href="#">privacy policy</a>.</p>
           <p class="text-center text-muted">Already have an account? <a href="/login">Sign in</a></p>
         </form>
       </div>
     </div>
     <footer class="footer">
-      <span class="copyright">&copy; 2018 TaskAgile.com</span>
+      <span class="copyright">&copy; 2022 .com</span>
       <ul class="footer-links list-inline float-right">
         <li class="list-inline-item"><a href="#">About</a></li>
         <li class="list-inline-item"><a href="#">Terms of Service</a></li>
@@ -64,16 +65,16 @@ export default {
 
 .register-form {
   margin-top: 50px;
-  max-width: 320px;
-}
-.logo-wrapper > img{
-  width: 10.5em;
-  height: 7.5em;
-  margin-bottom: 20px;
+  max-width: 420px;
 }
 .logo-wrapper {
   text-align: center;
   margin-bottom: 40px;
+}
+.logo{
+  width: 180px;
+  height: 140px;
+  margin-bottom: 20px;
 }
 
 .footer {
@@ -81,5 +82,8 @@ export default {
   line-height: 40px;
   border-top: 1px solid #ddd;
   margin-top: 50px;
+}
+.form-group {
+  margin-top: 10px;
 }
 </style>
